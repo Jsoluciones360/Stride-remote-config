@@ -11,7 +11,7 @@
   "message": {
     "id": "mvp_info_2",
     "text": "¡Gracias por usar Stride! 🚀",
-    "type": "warning",
+    "type": "critical",
     "frequency": "once_daily",
     "startDate": "2026-01-30",
     "endDate": "2026-02-04"
