@@ -9,10 +9,17 @@
   "android_store_url": "https://www.notion.so/Pol-tica-de-Privacidad-HookNotes-ES-2789b8eb5ee1805cb4dbe83cdd5daafb",
   "ios_store_url": "https://www.notion.so/Pol-tica-de-Privacidad-HookNotes-ES-2789b8eb5ee1805cb4dbe83cdd5daafb",
   "message": {
-    "id": "mvp-info-1",
+    "id": "mvp_info_2",
     "text": "¡Gracias por usar Stride! 🚀",
     "type": "info",
-    "once_per_day": false
+    
+    // OPCIÓN 1: Frecuencia (Elige una)
+    "frequency": "once_daily",  // Te lo muestra hoy, mañana, pasado... (1 vez al día)
+    // "frequency": "once_ever", // Solo la primera vez (Comportamiento clásico)
+    // "frequency": "always",    // SIEMPRE que abras la app (Para alertas críticas)
+    // OPCIÓN 2: Vigencia (Opcionales)
+    "startDate": "2025-01-30",  // No se mostrará antes de esta fecha
+    "endDate": "2025-02-04"     // Dejará de salir después de esta fecha
   },
   "maintenance_mode": false
 }
